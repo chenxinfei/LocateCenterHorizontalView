@@ -1,16 +1,16 @@
-##LocateCenterHorizontalView使用方法
-###一、参考效果
+## LocateCenterHorizontalView使用方法
+### 一、参考效果
 
 
 插入gif代码：
 ![gif5.gif](https://raw.githubusercontent.com/chenxinfei/LocateCenterHorizontalView/master/gif/gif5.gif)
 
-###一、特点
+### 一、特点
   1.使用方式和Recyclerview基本一样，非常易用。
   2.当滑动停止的时候默认选中中间的item，字体变大，变色，底部Recyclerview更着变到当前选中的position
   3.支持手动控制选中任意item
 
-###二、使用方式
+### 二、使用方式
   1.主要代码
   基本使用 和Recyclerview一模一样，唯一不同的是在继承RecyclerView.Adapter时要实现 AutoLocateHorizontalView.IAutoLocateHorizontalView 接口。如下所示：
 
@@ -74,7 +74,7 @@ LocateCenterHorizontalView滑动监听停止底部Recyclerview跟着改变
     }
 而 onViewSelected()方法中可以根据item是否被选中设置选中效果，比如选中时改变颜色，或者加粗等。
 
-##2. 常用方法
+## 2. 常用方法
 
 setInitPos(int pos) 设置最开始时选中的位置。
 
